@@ -21,6 +21,7 @@ public class Conexion {
     private Connection conn;
     private Statement stm;
     
+    //conexion
     public Conexion(String pIP, String pListener, String pUsuario, String pClave){
         try{
             Class.forName("oracle.jdbc.OracleDriver");
